@@ -324,7 +324,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 2026:
+/***/ 233:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8624));
@@ -332,8 +332,8 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3934));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6255));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1873));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1873))
 
 /***/ }),
 
@@ -1008,6 +1008,7 @@ var react_ = __webpack_require__(8038);
 const NavLink = ({ href, title })=>{
     return /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
         href: href,
+        prefetch: false,
         className: "block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-pink-500",
         children: title
     });
