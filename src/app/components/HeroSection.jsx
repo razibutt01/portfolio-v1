@@ -34,6 +34,7 @@ const HeroSection = () => {
               sequence={["Razi", 1000, "Web Developer", 1000, "React js. Developer", 1000, "Next js. Developer", 1000]}
               wrapper="span"
               speed={50}
+              className="text-2xl sm:text-4xl lg:text-6xl xl:text-8xl"
               repeat={Infinity}
             />
           </h1>
